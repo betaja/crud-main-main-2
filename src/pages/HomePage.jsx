@@ -42,7 +42,7 @@ export default function HomePage() {
   async function fetchUsers() {
     try {
       const response = await fetch(
-        "https://raw.githubusercontent.com/betaja/json/main/users.json?token=GHSAT0AAAAAACWURVLJS3EZRYZ76GJWH5CMZWZYJBQ"
+        "https://raw.githubusercontent.com/betaja/json/main/users.json?token=GHSAT0AAAAAACWURVLIXUJZDQBSUBQTT2QWZWZYPRQ"
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
